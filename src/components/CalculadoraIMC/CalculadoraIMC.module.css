@@ -1,0 +1,42 @@
+.container {
+    background-color: gray;
+    padding: 16px;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.input {
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    max-width: 40%;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.span {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.redSpan {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
